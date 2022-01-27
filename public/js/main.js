@@ -15,7 +15,7 @@ const { username, room } = Qs.parse(location.search, {
 });
 
 // const socket = io();
-// const socket = io("https://gentle-ravine-14321.herokuapp.com/");
+const socket = io("https://gentle-ravine-14321.herokuapp.com/");
 //
 
 // Join chatroom
